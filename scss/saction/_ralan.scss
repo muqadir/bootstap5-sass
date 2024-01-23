@@ -1,0 +1,23 @@
+@use '../custom' as *;
+@use '../component/mixins' as *;
+
+.ralan {
+    margin-top: 2.1rem;
+    margin-bottom:1.3rem;
+    padding-top: 6.3rem;
+    // @include gradient;
+
+    button {
+        text-transform: capitalize;
+    }
+}
+
+.colomtengah {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.baristengah {
+    justify-content: center;
+    text-align: center;
+}

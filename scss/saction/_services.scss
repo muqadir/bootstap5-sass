@@ -1,0 +1,90 @@
+
+@use '../custom' as *;
+@use '../component/mixins' as *;
+.services {
+position: relative;
+padding: 1rem 0;
+
+&__content{
+    padding: 1rem;
+    margin-top: 0;
+
+    p {
+        font-size: 0.8rem;
+        @include ratakirikanan;
+        @include media-breakpoint-down(lg){
+            font-size: 1rem;
+          
+        }
+        @include media-breakpoint-up(lg){
+            font-size: 1rem;
+            
+        }
+        @include media-breakpoint-up(md){
+            font-size: 1rem;
+        }
+    
+        @include media-breakpoint-up(xl){
+            font-size: 1rem;
+        }
+    }
+    //    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px)
+    @include media-breakpoint-down(lg){
+      
+        margin-top: 5rem;
+    }
+    @include media-breakpoint-up(lg){
+        font-size: 1rem;
+        margin-top: 5rem;
+    }
+    @include media-breakpoint-up(md){
+        margin-top: 3rem;
+    }
+
+    @include media-breakpoint-up(xl){
+        margin-top: 3rem;
+    }
+
+    .icon {
+        font-size: 2.5rem;
+        color: $primary;
+        @include media-breakpoint-down(lg){
+            font-size: 2.5rem;
+           
+        }
+        @include media-breakpoint-up(lg){
+            font-size: 2.5rem;
+            
+        }
+        @include media-breakpoint-up(md){
+            font-size: 2.5rem;
+        }
+    
+        @include media-breakpoint-up(xl){
+            font-size: 2.5rem;
+        }
+    }
+
+  
+}
+
+&__pic {
+    max-width: 100%;
+    // margin-top: 1.5rem;
+    @include media-breakpoint-down(lg){
+        // font-size: 2.5rem;
+        .image-fluid {
+            max-width: 100%;
+        //    margin-left: 1rem;
+        //    margin-right: 2rem;
+        }
+        
+       
+    }
+
+
+}
+// .justify {
+//     text-align: justify;
+// }
+}

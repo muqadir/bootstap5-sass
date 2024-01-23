@@ -1,0 +1,25 @@
+@use 'custom';
+
+
+// import component
+
+@use 'component/animations';
+@use 'component/buttons';
+@use 'component/mixins';
+@use 'component/typography';
+
+
+//import sections
+
+@use 'saction/navbar';
+@use 'saction/intro-section';
+@use 'saction/campanies';
+@use 'saction/services';
+@use 'saction/testimonials';
+@use 'saction/faq';
+@use 'saction/portofolio';
+@use 'saction/get-started';
+@use 'saction/ralan';
+@use 'saction/table';
+
+@use 'saction/footer';
